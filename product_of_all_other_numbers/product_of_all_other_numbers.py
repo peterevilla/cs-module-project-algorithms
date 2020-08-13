@@ -2,10 +2,17 @@
 Input: a List of integers
 Returns: a List of integers
 '''
+
 def product_of_all_other_numbers(arr):
     # Your code here
+    res = 1
+    prod = []
+    for i in range(len(arr)):
+        res = res * arr[i]
+    for i in range(len(arr)):
+        prod.append(res / arr[i])
+    return prod
 
-    pass
 
 
 if __name__ == '__main__':
