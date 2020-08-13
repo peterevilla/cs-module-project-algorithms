@@ -14,6 +14,20 @@ def product_of_all_other_numbers(arr):
     return prod
 
 
+# prod = []
+# def product_of_all_other_numbers(arr):
+#     # Your code here
+#   x = 1
+#   n = 0
+  
+#   if len(arr) == 1:
+#     return arr[0]
+#   else:
+#     x = arr[0] * product_of_all_other_numbers(arr[1:])
+#     prod.insert(0, x / arr[n])
+#     n += 1
+#     return x
+
 
 if __name__ == '__main__':
     # Use the main function to test your implementation
